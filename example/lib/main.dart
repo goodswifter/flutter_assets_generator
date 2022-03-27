@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_assets_generator/flutter_assets_generator.dart';
 
 void main() {
   runApp(const MyApp());
