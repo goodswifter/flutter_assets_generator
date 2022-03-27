@@ -1,7 +1,7 @@
 name: flutter_assets_generator
 description: Automatically generate a resource file by scanning pubspec.yaml to correspond to the flutter's asset, imitation R file short name.
 version: 0.0.1
-homepage:
+homepage: https://github.com/goodswifter/flutter_assets_generator
 
 environment:
   sdk: ">=2.16.0 <3.0.0"
