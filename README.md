@@ -1,4 +1,5 @@
-# flutter_asset_generator
+# flutter_assets_generator
+- 此包是在原作者的基础加以修改
 
 Automatically generate the dart file for pubspec.yaml
 
@@ -6,11 +7,13 @@ The purpose of this library is to help flutter developers automatically generate
 
 This library is based on dartlang's build library.
 
-[中文文档](https://github.com/CaiJingLong/flutter_resource_generator/blob/master/README_CHN.md)
+[原作者](https://github.com/CaiJingLong/flutter_resource_generator)
 
-[English](https://github.com/CaiJingLong/flutter_resource_generator)
+[中文文档](https://github.com/goodswifter/flutter_assets_generator/blob/main/CHANGELOG.md)
 
-- [flutter_asset_generator](#flutter_asset_generator)
+[English](https://github.com/goodswifter/flutter_assets_generator)
+
+- [flutter_assets_generator](#flutter_assets_generator)
   - [screenshot](#screenshot)
   - [Usage](#usage)
     - [use source](#use-source)
@@ -32,10 +35,10 @@ This library is based on dartlang's build library.
 add `dart`,`pub` to `$PATH` environment.
 
 ```bash
-git clone https://github.com/CaiJingLong/flutter_resource_generator.git
-cd flutter_resource_generator
+git clone https://github.com/goodswifter/flutter_assets_generator.git
+cd flutter_assets_generator
 pub get
-dart bin/resource_generator.dart $flutter_project
+dart bin/flutter_assets_generator.dart $flutter_project
 ```
 
 ### pub global
@@ -43,7 +46,7 @@ dart bin/resource_generator.dart $flutter_project
 install:
 
 ```bash
-pub global activate flutter_asset_generator
+pub global activate flutter_assets_generator
 ```
 
 use:
@@ -153,29 +156,29 @@ images
 ```
 
 ```dart
-/// Generate by [resource_generator](https://github.com/CaiJingLong/flutter_resource_generator) library.
+/// Generate by [flutter_assets_generator](https://github.com/goodswifter/flutter_assets_generator) library.
 /// PLEASE DO NOT EDIT MANUALLY.
 class R {
 
-  /// ![preview](file:///Users/jinglongcai/code/dart/self/flutter_resource_generator/example/assets/bluetoothon-fjdfj.png)
+  /// ![preview](file:///Users/jinglongcai/code/dart/self/flutter_assets_generator/example/assets/bluetoothon-fjdfj.png)
   static const String ASSETS_BLUETOOTHON_FJDFJ_PNG = 'assets/bluetoothon-fjdfj.png';
 
-  /// ![preview](file:///Users/jinglongcai/code/dart/self/flutter_resource_generator/example/assets/bluetoothon.png)
+  /// ![preview](file:///Users/jinglongcai/code/dart/self/flutter_assets_generator/example/assets/bluetoothon.png)
   static const String ASSETS_BLUETOOTHON_PNG = 'assets/bluetoothon.png';
 
-  /// ![preview](file:///Users/jinglongcai/code/dart/self/flutter_resource_generator/example/assets/camera.png)
+  /// ![preview](file:///Users/jinglongcai/code/dart/self/flutter_assets_generator/example/assets/camera.png)
   static const String ASSETS_CAMERA_PNG = 'assets/camera.png';
 
-  /// ![preview](file:///Users/jinglongcai/code/dart/self/flutter_resource_generator/example/images/audio.png)
+  /// ![preview](file:///Users/jinglongcai/code/dart/self/flutter_assets_generator/example/images/audio.png)
   static const String IMAGES_AUDIO_PNG = 'images/audio.png';
 
-  /// ![preview](file:///Users/jinglongcai/code/dart/self/flutter_resource_generator/example/images/bluetoothoff.png)
+  /// ![preview](file:///Users/jinglongcai/code/dart/self/flutter_assets_generator/example/images/bluetoothoff.png)
   static const String IMAGES_BLUETOOTHOFF_PNG = 'images/bluetoothoff.png';
 
-  /// ![preview](file:///Users/jinglongcai/code/dart/self/flutter_resource_generator/example/images/child.png)
+  /// ![preview](file:///Users/jinglongcai/code/dart/self/flutter_assets_generator/example/images/child.png)
   static const String IMAGES_CHILD_PNG = 'images/child.png';
 
-  /// ![preview](file:///Users/jinglongcai/code/dart/self/flutter_resource_generator/example/images/course.png)
+  /// ![preview](file:///Users/jinglongcai/code/dart/self/flutter_assets_generator/example/images/course.png)
   static const String IMAGES_COURSE_PNG = 'images/course.png';
 }
 ```

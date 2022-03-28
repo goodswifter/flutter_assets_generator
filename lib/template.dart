@@ -6,9 +6,10 @@ class Template {
   final String className;
 
   String license = '''
-/// Generate by [resource_generator](https://github.com/CaiJingLong/flutter_resource_generator) library.
-/// PLEASE DO NOT EDIT MANUALLY.
-// ignore_for_file: constant_identifier_names\n''';
+/// Generate by [flutter_assets_generator](https://github.com/goodswifter/flutter_assets_generator) library.
+/// 
+/// PLEASE DO NOT EDIT MANUALLY.\n
+''';
 
   String get classDeclare => '''
 class $className {\n
@@ -45,7 +46,7 @@ class $className {\n
     }).replaceAll('_', '');
   }
 
-  String toUppercaseFirstLetter(String str) {
-    return '${str[0].toUpperCase()}${str.substring(1)}';
-  }
+  // String toUppercaseFirstLetter(String str) {
+  //   return '${str[0].toUpperCase()}${str.substring(1)}';
+  // }
 }

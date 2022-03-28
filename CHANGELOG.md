@@ -1,3 +1,7 @@
+## 0.0.2
+
+* Fix readme and template
+
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Initial version, created by goodswifter

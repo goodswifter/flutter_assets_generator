@@ -4,7 +4,21 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 
 void main() {
+  String path = 'assets/address@at.png';
+  print(_formatFiledName(path));
   runApp(const MyApp());
+}
+
+String _formatFiledName(String path) {
+  path = path
+      .replaceAll('/', '_')
+      .replaceAll('.', '_')
+      .replaceAll(' ', '_')
+      .replaceAll('-', '_')
+      .replaceAll('@', '_AT_');
+  return path.replaceAllMapped(RegExp(r'_([A-z])'), (Match match) {
+    return match.group(0)!.replaceAll('_', '').toUpperCase();
+  }).replaceAll('_', '');
 }
 
 class MyApp extends StatefulWidget {
