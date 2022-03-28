@@ -4,7 +4,7 @@
 
 在 lib/const/resource.dart 中 自动生成 R 文件(仿安卓短命名)
 
-[中文文档](https://github.com/goodswifter/flutter_assets_generator/blob/main/CHANGELOG.md)
+[中文文档](https://github.com/goodswifter/flutter_assets_generator/blob/main/README_CHN.md)
 
 [English](https://github.com/goodswifter/flutter_assets_generator)
 
@@ -30,9 +30,10 @@
 添加 dart 至环境变量
 
 ```bash
-git clone https://github.com/CaiJingLong/flutter_resource_generator.git
-cd flutter_resource_generator
-dart bin/resource_generator.dart ./example
+git clone https://github.com/goodswifter/flutter_assets_generator.git
+cd flutter_assets_generator
+pub get
+dart bin/flutter_assets_generator.dart $flutter_project
 ```
 
 `./example` 是 flutter 项目的地址

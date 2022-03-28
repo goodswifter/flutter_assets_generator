@@ -9,7 +9,7 @@ This library is based on dartlang's build library.
 
 [原作者](https://github.com/CaiJingLong/flutter_resource_generator)
 
-[中文文档](https://github.com/goodswifter/flutter_assets_generator/blob/main/CHANGELOG.md)
+[中文文档](https://github.com/goodswifter/flutter_assets_generator/blob/main/README_CHN.md)
 
 [English](https://github.com/goodswifter/flutter_assets_generator)
 
