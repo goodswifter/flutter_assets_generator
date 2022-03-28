@@ -46,7 +46,7 @@ dart bin/flutter_assets_generator.dart $flutter_project
 install:
 
 ```bash
-pub global activate flutter_assets_generator
+dart pub global activate flutter_assets_generator
 ```
 
 use:

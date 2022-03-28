@@ -55,7 +55,7 @@ pub --version
 有正确的输出
 
 安装:
-`$ pub global activate flutter_assets_generator`
+`$ dart pub global activate flutter_assets_generator`
 
 **使用**:
 在 flutter 目录下执行
