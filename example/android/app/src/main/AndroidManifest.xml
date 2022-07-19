@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zad.flutter_assets_generator_example">
+    package="com.example.flutter_assets_generator_example">
    <application
         android:label="flutter_assets_generator_example"
         android:name="${applicationName}"

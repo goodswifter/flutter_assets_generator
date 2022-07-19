@@ -1,4 +1,4 @@
-package com.zad.flutter_assets_generator_example
+package com.example.flutter_assets_generator_example
 
 import io.flutter.embedding.android.FlutterActivity
 
