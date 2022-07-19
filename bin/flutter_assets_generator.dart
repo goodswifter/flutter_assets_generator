@@ -3,6 +3,7 @@ library flutter_assets_generator;
 import 'dart:io';
 
 import 'package:args/args.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_assets_generator/logger.dart';
 import 'package:flutter_assets_generator/builder.dart';
 import 'package:path/path.dart' as path_library;
@@ -53,7 +54,7 @@ void main(List<String> args) {
   Logger().isDebug = results['debug'] as bool;
 
   if (results.wasParsed('help')) {
-    print(parser.usage);
+    debugPrint(parser.usage);
     return;
   }
 

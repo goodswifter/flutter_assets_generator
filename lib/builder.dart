@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 
+import 'package:flutter/material.dart';
 import 'package:path/path.dart';
 import 'package:yaml/yaml.dart';
 
@@ -39,7 +40,7 @@ class ResourceDartBuilder {
   bool isPreview = true;
 
   void generateResourceDartFile(String className) {
-    print('Generating files for Project: $projectRootPath');
+    debugPrint('Generating files for Project: $projectRootPath');
     stopWatch();
     final String pubYamlPath = '$projectRootPath${separator}pubspec.yaml';
     try {
