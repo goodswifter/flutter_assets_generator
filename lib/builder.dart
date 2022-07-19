@@ -57,7 +57,7 @@ class ResourceDartBuilder {
         writeText(e);
       }
     }
-    print('Generate dart resource file finish.');
+    debugPrint('Generate dart resource file finish.');
 
     startWatch(className);
   }
@@ -213,7 +213,7 @@ class ResourceDartBuilder {
     sw.start();
     final String formattedCode = formatFile(source.toString());
     sw.stop();
-    print('format code ${sw.elapsedMilliseconds}ms');
+    debugPrint('format code ${sw.elapsedMilliseconds}ms');
     sw.reset();
     resourceFile.writeAsString(formattedCode);
     sw.stop();
@@ -243,7 +243,7 @@ class ResourceDartBuilder {
       watchMap[pubspec] = sub;
     }
 
-    print('watching files watch');
+    debugPrint('watching files watch');
   }
 
   void stopWatch() {
@@ -263,7 +263,7 @@ class ResourceDartBuilder {
   ) {
     if (FileSystemEntity.isWatchSupported) {
       return file.watch().listen((FileSystemEvent data) {
-        print('${data.path} is changed.');
+        debugPrint('${data.path} is changed.');
         generateResourceDartFile(className);
       });
     }
