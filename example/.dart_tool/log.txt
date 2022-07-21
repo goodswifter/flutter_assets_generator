@@ -1,0 +1,3 @@
+2022-07-21 22:39:11.725911  : allImageList = [assets/bluetoothon-fjdfj.png, assets/bluetoothon.png, assets/camera.png, images/audio.png, images/bluetoothoff.png, images/child.png, images/course.png]
+2022-07-21 22:39:11.728464  : start write code
+2022-07-21 22:39:11.789864  : end write code 0

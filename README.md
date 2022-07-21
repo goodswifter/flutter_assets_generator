@@ -26,9 +26,9 @@
 添加 dart 至环境变量
 
 ```bash
-git clone https://github.com/CaiJingLong/flutter_resource_generator.git
-cd flutter_resource_generator
-dart bin/resource_generator.dart ./example
+git clone https://github.com/goodswifter/flutter_assets_generator.git
+cd flutter_assets_generator
+dart bin/flutter_assets_generator.dart ./example
 ```
 
 `./example` 是 flutter 项目的地址
