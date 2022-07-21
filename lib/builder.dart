@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:flutter/material.dart';
 import 'package:path/path.dart';
 import 'package:yaml/yaml.dart';
 
@@ -40,7 +39,7 @@ class ResourceDartBuilder {
   bool isPreview = true;
 
   void generateResourceDartFile(String className) {
-    debugPrint('Generating files for Project: $projectRootPath');
+    print('Generating files for Project: $projectRootPath');
     stopWatch();
     final String pubYamlPath = '$projectRootPath${separator}pubspec.yaml';
     try {
@@ -57,7 +56,7 @@ class ResourceDartBuilder {
         writeText(e);
       }
     }
-    debugPrint('Generate dart resource file finish.');
+    print('Generate dart resource file finish.');
 
     startWatch(className);
   }
@@ -213,7 +212,7 @@ class ResourceDartBuilder {
     sw.start();
     final String formattedCode = formatFile(source.toString());
     sw.stop();
-    debugPrint('format code ${sw.elapsedMilliseconds}ms');
+    print('format code ${sw.elapsedMilliseconds}ms');
     sw.reset();
     resourceFile.writeAsString(formattedCode);
     sw.stop();
@@ -243,7 +242,7 @@ class ResourceDartBuilder {
       watchMap[pubspec] = sub;
     }
 
-    debugPrint('watching files watch');
+    print('watching files watch');
   }
 
   void stopWatch() {
@@ -263,7 +262,7 @@ class ResourceDartBuilder {
   ) {
     if (FileSystemEntity.isWatchSupported) {
       return file.watch().listen((FileSystemEvent data) {
-        debugPrint('${data.path} is changed.');
+        print('${data.path} is changed.');
         generateResourceDartFile(className);
       });
     }

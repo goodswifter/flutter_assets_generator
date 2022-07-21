@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 class Logger {
   factory Logger() => _instance;
 
@@ -11,7 +9,7 @@ class Logger {
 
   void debug(Object msg) {
     if (isDebug) {
-      debugPrint(msg.toString());
+      print(msg.toString());
     }
   }
 }

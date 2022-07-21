@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'package:flutter/material.dart';
 import 'package:glob/glob.dart';
 import 'package:yaml/yaml.dart';
 
@@ -49,9 +48,9 @@ class Filter {
       }
       return list.whereType<String>().map<Glob>((String e) => Glob(e)).toList();
     } catch (e, st) {
-      debugPrint(e.toString());
-      debugPrint(st.toString());
-      debugPrint('The $key of fgen.yaml must be a string array');
+      print(e.toString());
+      print(st.toString());
+      print('The $key of fgen.yaml must be a string array');
       exit(2);
     }
   }

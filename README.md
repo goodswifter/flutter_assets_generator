@@ -83,7 +83,7 @@ fgen -h
                     (defaults to on)
 
 -o, --output        Your resource file path.
-                    If it\'s a relative path, the relative flutter root directory
+                    If it is a relative path, the relative flutter root directory
                     (defaults to "lib/const/resource.dart")
 
 -s, --src           Flutter project root path
