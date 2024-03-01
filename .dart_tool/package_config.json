@@ -3,225 +3,225 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/_fe_analyzer_shared-41.0.0",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/_fe_analyzer_shared-64.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/analyzer-4.2.0",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/analyzer-6.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "args",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/args-2.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "async",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/async-2.11.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "boolean_selector",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/boolean_selector-2.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
-      "name": "args",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/args-2.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "async",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/async-2.8.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "boolean_selector",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/boolean_selector-2.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "characters",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/characters-1.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "charcode",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/charcode-1.3.1",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/characters-1.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "clock",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/clock-1.1.0",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/clock-1.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "collection",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/collection-1.16.0",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/collection-1.18.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "convert",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/convert-3.0.2",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/convert-3.1.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "crypto",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/crypto-3.0.2",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/crypto-3.0.3",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.19"
     },
     {
       "name": "dart_style",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/dart_style-2.2.3",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/dart_style-2.3.6",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "fake_async",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/fake_async-1.3.0",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/fake_async-1.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "file",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/file-6.1.2",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/file-7.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "flutter",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/packages/flutter",
+      "rootUri": "file:///Users/zad/fvm/versions/3.16.9/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.2"
     },
     {
       "name": "flutter_lints",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/flutter_lints-1.0.4",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/flutter_lints-3.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/packages/flutter_test",
+      "rootUri": "file:///Users/zad/fvm/versions/3.16.9/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.2"
     },
     {
       "name": "glob",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/glob-2.1.0",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/glob-2.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.15"
+      "languageVersion": "2.19"
     },
     {
       "name": "io",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/io-1.0.3",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/io-1.0.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "lints",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/lints-1.0.1",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/lints-3.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "matcher",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/matcher-0.12.11",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/matcher-0.12.16",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/material_color_utilities-0.1.4",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/material_color_utilities-0.5.0",
       "packageUri": "lib/",
-      "languageVersion": "2.13"
+      "languageVersion": "2.17"
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/meta-1.7.0",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/meta-1.10.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "package_config",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/package_config-2.1.0",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/package_config-2.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/path-1.8.1",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/path-1.8.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "pub_semver",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/pub_semver-2.1.1",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/pub_semver-2.1.4",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///Users/zad/fvm/versions/3.16.9/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.2"
     },
     {
       "name": "source_span",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/source_span-1.8.2",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/source_span-1.10.0",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.18"
     },
     {
       "name": "stack_trace",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/stack_trace-1.10.0",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/stack_trace-1.11.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "stream_channel",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/stream_channel-2.1.0",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/stream_channel-2.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.19"
     },
     {
       "name": "string_scanner",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/string_scanner-1.1.0",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/string_scanner-1.2.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "term_glyph",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/term_glyph-1.2.0",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/term_glyph-1.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/test_api-0.4.9",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/test_api-0.6.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "typed_data",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/typed_data-1.3.1",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/typed_data-1.3.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "vector_math",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/vector_math-2.1.2",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/vector_math-2.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "watcher",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/watcher-1.0.1",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/watcher-1.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "web",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/web-0.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
     },
     {
       "name": "yaml",
-      "rootUri": "file:///Users/zad/fvm/versions/3.0.2/.pub-cache/hosted/pub.flutter-io.cn/yaml-3.1.1",
+      "rootUri": "file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/yaml-3.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.19"
     },
     {
       "name": "flutter_assets_generator",
@@ -230,7 +230,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2022-07-21T14:07:09.358021Z",
+  "generated": "2024-03-01T08:49:26.198667Z",
   "generator": "pub",
-  "generatorVersion": "2.17.3"
+  "generatorVersion": "3.2.6"
 }
