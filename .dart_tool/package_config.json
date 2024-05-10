@@ -227,10 +227,10 @@
       "name": "flutter_assets_generator",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-03-01T08:58:04.240196Z",
+  "generated": "2024-03-04T08:51:37.663Z",
   "generator": "pub",
   "generatorVersion": "3.2.6"
 }

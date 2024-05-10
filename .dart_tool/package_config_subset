@@ -135,9 +135,9 @@ yaml
 file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/yaml-3.1.2/
 file:///Users/zad/.pub-cache/bin/bin/hosted/pub.flutter-io.cn/yaml-3.1.2/lib/
 flutter_assets_generator
-2.12
-file:///Users/zad/Documents/hst/hf_app/modules/flutter_assets_generator/
-file:///Users/zad/Documents/hst/hf_app/modules/flutter_assets_generator/lib/
+3.0
+file:///Users/zad/Documents/hst/hf_app/tool/flutter_assets_generator/
+file:///Users/zad/Documents/hst/hf_app/tool/flutter_assets_generator/lib/
 sky_engine
 3.2
 file:///Users/zad/fvm/versions/3.16.9/bin/cache/pkg/sky_engine/
